@@ -1,27 +1,60 @@
-# AmireJoseph
+# 🌐 Amire Joseph's Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
+Welcome to my personal portfolio website! This site showcases my work, projects, and technical skills as a full-stack developer. It's designed to provide potential employers, clients, and collaborators with an overview of who I am and what I can do.
 
-## Development server
+## 🔗 Live Demo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+[Visit the live site](https://amirejoseph.netlify.app)
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 📁 Project Structure
 
-## Build
+> _Note: Adjust structure based on your stack (Angular/React/Vue/etc.)_
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 🚀 Features
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- ✅ Responsive design for all devices
+- ✅ Smooth animations and transitions
+- ✅ Projects showcase with detailed descriptions
+- ✅ Contact form integration
+- ✅ Social media and GitHub links
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🛠️ Built With
 
-## Further help
+- **Frontend**: HTML5, SCSS, TypeScript
+- **Framework**: Angular
+- **Styling**: Bootstrap / SCSS
+- **Deployment**: Netlify / GitHub
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+
+## 🧠 Skills Highlighted
+
+- Full-stack Web Development
+- RESTful API Integration
+- Database Management
+- Cloud Deployment
+- Git & Version Control
+
+---
+
+## 🧪 Running Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/Operaconga14/portfolio.git
+
+# Navigate to the project folder
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```

@@ -1,4 +1,4 @@
-<header>
+<div>
         <div class="header-area ">
                 <div id="sticky-header" class="main-header-area">
                         <div class="container-fluid">
@@ -6,7 +6,8 @@
                                         <div class="col-xl-3 col-lg-2">
                                                 <div class="logo">
                                                         <a [routerLink]="['/']">
-                                                                <img src="img/logo.png" alt="" width="250">
+                                                                <img src="img/logo.png" class="img-fluid" alt=""
+                                                                        width="250">
                                                         </a>
                                                 </div>
                                         </div>
@@ -31,24 +32,21 @@
                                                 <div class="main-menu d-none d-lg-block">
                                                         <ul class="me-2">
                                                                 <li class="nav-item">
-                                                                        <a class="nav-link active" aria-current="page"
+                                                                        <a class="nav-link active fw-bold"
+                                                                                aria-current="page"
                                                                                 [routerLink]="['/']">Home</a>
                                                                 </li>
                                                                 <li class="nav-item">
-                                                                        <a class="nav-link"
+                                                                        <a class="nav-link fw-bold"
                                                                                 [routerLink]="['/', 'about']">About</a>
                                                                 </li>
                                                                 <li class="nav-item">
-                                                                        <a class="nav-link"
+                                                                        <a class="nav-link fw-bold"
                                                                                 [routerLink]="['/', 'projects']">Projects</a>
                                                                 </li>
                                                                 <li class="nav-item">
-                                                                        <a class="nav-link"
+                                                                        <a class="nav-link fw-bold"
                                                                                 [routerLink]="['/', 'portfolio']">Portfolio</a>
-                                                                </li>
-                                                                <li class="nav-item">
-                                                                        <a class="nav-link"
-                                                                                [routerLink]="['/', 'contact']">Contact</a>
                                                                 </li>
 
                                                         </ul>
@@ -85,7 +83,7 @@
                                         <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                                 <div class="Appointment">
                                                         <div class="book_btn d-none d-lg-block">
-                                                                <a class="btn rounded"
+                                                                <a class="btn rounded fw-bold"
                                                                         [routerLink]="[ '/', 'contact' ]">Contact Me</a>
                                                         </div>
                                                 </div>
@@ -101,4 +99,4 @@
                         </div>
                 </div>
         </div>
-</header>
+</div>

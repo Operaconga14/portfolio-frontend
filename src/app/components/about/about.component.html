@@ -13,23 +13,16 @@
 </div>
 <!-- about_me  -->
 <div class="about_me">
-    <div class="about_large_title d-none d-lg-block">
+    <!-- <div class="about_large_title d-none d-lg-block">
         About
-    </div>
+    </div> -->
     <div class="container">
         <div class="row align-items-center">
             <div class="col-xl-6 col-md-6">
                 <div class="about_e_details">
-                    <h3>About me</h3>
-                    <p>I’m a passionate Full-Stack Developer with expertise in building robust and scalable web
-                        applications.
-                        With experience in **Angular, Python, Node.js, Express, and MySQL**, I specialize in creating
-                        efficient
-                        backend systems, seamless APIs, and dynamic front-end experiences.</p>
+                    <h3 class="fw-bold">About me</h3>
+                    <p class="fs-5 lh-sm">{{fulldetails}}</p>
 
-                    <p>Whether it’s crafting high-performance applications,
-                        or integrating third-party services, I thrive on solving complex problems with clean and
-                        maintainable code.</p>
                     <div class="download_cv">
                         <a class="boxed-btn3 btn rounded" target="_blank"
                             href="/pdf/Amire-Joseph-Resume-+3.pdf">Download CV</a>
@@ -39,7 +32,7 @@
             <div class="col-xl-6 col-md-6">
                 <div class="about_img">
                     <div class="color_pattern d-none d-lg-block">
-                        <img src="img/about/color_grid.png" alt="">
+                        <img src="img/about/color_grid.png" alt="" class="img-fluid">
                     </div>
                     <div class="my_Pic">
                         <img src="img/about/me cropped.png" alt="">
@@ -58,7 +51,7 @@
             <div class="col-xl-4 col-md-4">
                 <div class="single_counter text-center">
                     <h3>
-                        <span class="counter">20 </span><span>+</span>
+                        <span class="counter">{{totalProject}} </span>
                     </h3>
                     <p>Total Projects</p>
                 </div>
@@ -66,7 +59,7 @@
             <div class="col-xl-4 col-md-4">
                 <div class="single_counter text-center">
                     <h3>
-                        <span class="counter">15 </span>
+                        <span class="counter">{{ongoing}} </span>
                     </h3>
                     <p>On Going Projects</p>
                 </div>
@@ -74,7 +67,7 @@
             <div class="col-xl-4 col-md-4">
                 <div class="single_counter text-center">
                     <h3>
-                        <span class="counter">75 </span> <span>%</span>
+                        <span class="counter">{{jobsuccess}} </span> <span>%</span>
                     </h3>
                     <p>Job Success</p>
                 </div>
